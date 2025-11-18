@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Comprimento - V1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Conversor de Comprimento</h1>
+
+        <div class="conversor-box">
+            <div class="campo">
+                <label for="valorInput">Valor:</label>
+                <input type="number" id="valorInput" placeholder="Digite o valor">
+            </div>
+
+            <div class="campo">
+                <label for="unidadeDe">De:</label>
+                <select id="unidadeDe">
+                    <option value="metros">Metros</option>
+                    <option value="quilometros">Quilômetros</option>
+                    <option value="milhas">Milhas</option>
+                    <option value="polegadas">Polegadas</option>
+                </select>
+            </div>
+
+            <div class="campo">
+                <label for="unidadePara">Para:</label>
+                <select id="unidadePara">
+                    <option value="metros">Metros</option>
+                    <option value="quilometros">Quilômetros</option>
+                    <option value="milhas">Milhas</option>
+                    <option value="polegadas">Polegadas</option>
+                </select>
+            </div>
+
+            <button id="botaoConverter">Converter</button>
+        </div>
+
+        <div id="resultadoBox">
+            <h2>Resultado:</h2>
+            <p id="textoResultado">-</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
