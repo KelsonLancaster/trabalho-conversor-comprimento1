@@ -1,3 +1,5 @@
+CONTINUAÇÃO DO PROJETO - ATIVIDADE A2
+
 Trabalho: Conversor de Comprimento
 Projeto desenvolvido para a disciplina de Ferramentas de Desenvolvimento.
 
@@ -7,3 +9,5 @@ Tema 7: Conversor de unidades de comprimento (metros/milhas/polegadas/quilômetr
 Integrantes
 Kelson Lancaster (@KelsonLancaster)
 Geraldez dos Santos (@FrankCastle007)
+
+-Add nova imagem de fundo
